@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1105</width>
+    <height>710</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>40</y>
+     <width>1121</width>
+     <height>661</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="4">
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="3" column="5">
+     <spacer name="horizontalSpacer_5">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="1" column="6">
+     <spacer name="horizontalSpacer_6">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="1" column="2">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLabel" name="img_box_7">
+      <property name="text">
+       <string>이미지 박스7</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="QLabel" name="img_box_8">
+      <property name="text">
+       <string>이미지 박스8</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="5">
+     <widget class="QLabel" name="img_box_9">
+      <property name="text">
+       <string>이미지 박스9</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="5">
+     <widget class="QLabel" name="img_box_6">
+      <property name="text">
+       <string>이미지 박스6</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="3">
+     <spacer name="horizontalSpacer_4">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="img_box_1">
+      <property name="text">
+       <string>이미지 박스1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QLabel" name="img_box_3">
+      <property name="text">
+       <string>이미지 박스3</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QLabel" name="img_box_5">
+      <property name="text">
+       <string>이미지 박스5</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLabel" name="img_box_4">
+      <property name="text">
+       <string>이미지 박스4</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <spacer name="verticalSpacer_6">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="0">
+     <spacer name="verticalSpacer_8">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLabel" name="img_box_2">
+      <property name="text">
+       <string>이미지 박스2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <spacer name="verticalSpacer_4">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="4" column="6">
+     <layout class="QVBoxLayout" name="verticalLayout_9">
+      <item>
+       <widget class="QPushButton" name="y9">
+        <property name="text">
+         <string>Y</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="n9">
+        <property name="text">
+         <string>N</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="2">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="y1">
+        <property name="text">
+         <string>Y</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="n1">
+        <property name="text">
+         <string>N</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="3" column="1">
+     <spacer name="horizontalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="4">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QPushButton" name="y2">
+        <property name="text">
+         <string>Y</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="n2">
+        <property name="text">
+         <string>N</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="2">
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QPushButton" name="y4">
+        <property name="text">
+         <string>Y</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="n4">
+        <property name="text">
+         <string>N</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="4">
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <item>
+       <widget class="QPushButton" name="y5">
+        <property name="text">
+         <string>Y</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="n5">
+        <property name="text">
+         <string>N</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="6">
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QPushButton" name="y3">
+        <property name="text">
+         <string>Y</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="n3">
+        <property name="text">
+         <string>N</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="4" column="4">
+     <layout class="QVBoxLayout" name="verticalLayout_8">
+      <item>
+       <widget class="QPushButton" name="y8">
+        <property name="text">
+         <string>Y</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="n8">
+        <property name="text">
+         <string>N</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="4" column="2">
+     <layout class="QVBoxLayout" name="verticalLayout_7">
+      <item>
+       <widget class="QPushButton" name="y7">
+        <property name="text">
+         <string>Y</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="n7">
+        <property name="text">
+         <string>N</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="6">
+     <layout class="QVBoxLayout" name="verticalLayout_6">
+      <item>
+       <widget class="QPushButton" name="y6">
+        <property name="text">
+         <string>Y</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="n6">
+        <property name="text">
+         <string>N</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="reset_all">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>전부 리셋</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="random_start">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>0</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>랜덤 선택</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stop">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>0</y>
+     <width>121</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>그만 고르기</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="count_label">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>0</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>n1</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>r_one()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>261</x>
+     <y>168</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>542</x>
+     <y>8</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>n2</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>r_two()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>672</x>
+     <y>174</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>717</x>
+     <y>13</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>n3</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>r_three()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>987</x>
+     <y>178</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>800</x>
+     <y>22</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>n4</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>r_four()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>314</x>
+     <y>407</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>854</x>
+     <y>12</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>n5</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>r_five()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>644</x>
+     <y>405</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>737</x>
+     <y>27</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>n6</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>r_six()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>961</x>
+     <y>412</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>914</x>
+     <y>15</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>n7</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>r_seven()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>279</x>
+     <y>642</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>517</x>
+     <y>4</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>n8</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>r_eight()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>646</x>
+     <y>642</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>705</x>
+     <y>1</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>n9</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>r_nine()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1012</x>
+     <y>642</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>989</x>
+     <y>12</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>reset_all</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>r_ten()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>84</x>
+     <y>17</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>156</x>
+     <y>9</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>y1</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>p_one()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>279</x>
+     <y>96</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>354</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>y2</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>p_two()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>646</x>
+     <y>96</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>354</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>y7</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>p_seven()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>279</x>
+     <y>561</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>354</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>y6</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>p_six()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1012</x>
+     <y>328</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>354</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>y8</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>p_eight()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>646</x>
+     <y>561</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>354</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>y5</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>p_five()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>646</x>
+     <y>328</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>354</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>y4</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>p_four()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>279</x>
+     <y>328</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>354</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>y9</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>p_nine()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1012</x>
+     <y>561</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>354</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>y3</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>p_three()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1012</x>
+     <y>96</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>354</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>random_start</sender>
+   <signal>released()</signal>
+   <receiver>Form</receiver>
+   <slot>go_last_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>285</x>
+     <y>16</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>354</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>stop</sender>
+   <signal>released()</signal>
+   <receiver>Form</receiver>
+   <slot>go_last_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>170</x>
+     <y>16</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>354</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>random_start</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>random()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>285</x>
+     <y>16</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>354</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>btn_second_to_main()</slot>
+  <slot>p_one()</slot>
+  <slot>p_two()</slot>
+  <slot>p_three()</slot>
+  <slot>p_four()</slot>
+  <slot>p_five()</slot>
+  <slot>p_six()</slot>
+  <slot>p_seven()</slot>
+  <slot>p_eight()</slot>
+  <slot>p_nine()</slot>
+  <slot>r_ten()</slot>
+  <slot>go_last_page()</slot>
+  <slot>random()</slot>
+  <slot>r_one()</slot>
+  <slot>r_two()</slot>
+  <slot>r_three()</slot>
+  <slot>r_four()</slot>
+  <slot>r_five()</slot>
+  <slot>r_six()</slot>
+  <slot>r_seven()</slot>
+  <slot>r_eight()</slot>
+  <slot>r_nine()</slot>
+ </slots>
+</ui>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1127</width>
+    <height>728</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>뒤로가기</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="count_label">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>0</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="img_button_1">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>40</y>
+     <width>211</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="img_button_2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>40</y>
+     <width>211</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="img_button_3">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>40</y>
+     <width>211</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="img_button_4">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>250</y>
+     <width>211</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="img_button_5">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>250</y>
+     <width>211</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="img_button_6">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>250</y>
+     <width>211</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="img_button_7">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>460</y>
+     <width>211</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="img_button_8">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>460</y>
+     <width>211</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="img_button_9">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>460</y>
+     <width>211</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>back</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_third_to_second()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>71</x>
+     <y>16</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>35</x>
+     <y>44</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>img_button_1</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>one()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>145</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>563</x>
+     <y>363</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>img_button_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>two()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>555</x>
+     <y>145</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>563</x>
+     <y>363</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>img_button_9</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>nine()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>765</x>
+     <y>565</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>563</x>
+     <y>363</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>img_button_8</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>eight()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>555</x>
+     <y>565</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>563</x>
+     <y>363</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>img_button_7</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>seven()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>565</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>563</x>
+     <y>363</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>img_button_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>three()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>765</x>
+     <y>145</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>563</x>
+     <y>363</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>img_button_4</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>four()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>355</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>563</x>
+     <y>363</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>img_button_5</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>five()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>555</x>
+     <y>355</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>563</x>
+     <y>363</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>img_button_6</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>six()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>765</x>
+     <y>355</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>563</x>
+     <y>363</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>btn_third_to_second()</slot>
+  <slot>one()</slot>
+  <slot>two()</slot>
+  <slot>three()</slot>
+  <slot>four()</slot>
+  <slot>five()</slot>
+  <slot>six()</slot>
+  <slot>seven()</slot>
+  <slot>eight()</slot>
+  <slot>nine()</slot>
+ </slots>
+</ui>
